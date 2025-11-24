@@ -1,0 +1,13 @@
+#include <stdio.h>
+void add();
+int main()
+{
+    printf("main function");
+    add();
+    add();
+    add();
+}
+void add()
+{
+    printf("Adittion is :%d\n", (10 + 10));
+}
